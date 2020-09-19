@@ -13,7 +13,7 @@ void loop()
     digitalWrite(PIN_LED, 0);
     delay(1000);
     }
-    if (i < 6)
+    if (i < 5)
     {
     digitalWrite(PIN_LED, 1);
     delay(100); 
@@ -21,7 +21,7 @@ void loop()
     delay(100);
     i += 1;
     }
-    if (i == 6)
+    if (i == 5)
     {
     digitalWrite(PIN_LED, 1);
     }
